@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+/* 
+#191825 darker
+#2B2730 liter
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+a{
+   text-decoration: none;
+   color: gold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+   background-color: #2B2730;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.wrap__p {
+   margin: 0 auto;
+   width: 1200px;
+   padding: 15px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+   @media (max-width: 1250px) {
+      width: 900px;
+   }
+   @media (max-width: 950px) {
+      width: 740px;
+   }
 }

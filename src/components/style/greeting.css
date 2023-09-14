@@ -1,0 +1,9 @@
+
+.greeting {
+   background: url('../../images/bg1.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   height: 55vh;
+}
+.greeting__content{}

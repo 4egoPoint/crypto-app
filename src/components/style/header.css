@@ -1,0 +1,81 @@
+.header {
+   background-color: #191825;
+   height: 55px;
+   display: flex;
+   align-items: center;
+}
+
+.header__row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100%;
+}
+
+.header__logo {
+   display: flex;
+   align-items: center;
+   color: gold;
+   font-size: 25px;
+   height: 40px;
+}
+
+.header__exchange {
+   color: white;
+   position: relative;
+   height: 35px;
+}
+
+.header__exchange-current {
+   display: flex;
+   align-items: center;
+   border: 1px solid white;
+   padding: 7px;
+   border-radius: 5px;
+}
+.down{
+   font-size: 20px;
+}
+.up {
+   font-size: 20px;
+   display: none;
+}
+
+.header__exchange:hover .header__exchange-list{
+   display: flex;
+}
+
+.header__exchange-list {
+   display: none;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   background-color: #191825;
+   padding: 3px;
+}
+
+.header__exchange-usd {
+   color: gold;
+   padding: 5px;
+   width: 100%;
+   background-color: transparent;
+   border: none;
+   border-radius: 3px;
+}
+
+.header__exchange-usd:hover {
+   border: 1px solid gold;
+}
+
+.header__exchange-eur {
+   color: gold;
+   padding: 5px;
+   width: 100%;
+   background-color: transparent;
+   border: none;
+   border-radius: 3px;
+}
+
+.header__exchange-eur:hover {
+   border: 1px solid gold;
+}
