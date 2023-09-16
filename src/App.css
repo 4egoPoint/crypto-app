@@ -9,6 +9,7 @@
    margin: 0;
    box-sizing: border-box;
    scroll-behavior: smooth;
+   font-family: Montserrat;
 }
 a{
    text-decoration: none;
@@ -28,6 +29,6 @@ body {
       width: 900px;
    }
    @media (max-width: 950px) {
-      width: 740px;
+      width: 100%
    }
 }

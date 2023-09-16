@@ -27,6 +27,7 @@
 }
 
 .header__exchange-current {
+   width: 70px;
    display: flex;
    align-items: center;
    border: 1px solid white;
@@ -56,7 +57,7 @@
 
 .header__exchange-usd {
    color: gold;
-   padding: 5px;
+   padding: 8px 5px;
    width: 100%;
    background-color: transparent;
    border: none;
@@ -69,7 +70,7 @@
 
 .header__exchange-eur {
    color: gold;
-   padding: 5px;
+   padding: 8px 5px;
    width: 100%;
    background-color: transparent;
    border: none;

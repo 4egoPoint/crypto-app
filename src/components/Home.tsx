@@ -1,11 +1,12 @@
 
+import CoinsList from './CoinsList';
 import Greeting from './Greeting';
-import React from 'react'
 
 const Home = () => {
    return (
       <>
          <Greeting />
+         <CoinsList />
       </>
    )
 }

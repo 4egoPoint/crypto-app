@@ -1,0 +1,28 @@
+.input{
+   height: 100%;
+   width: 100%;
+}
+
+.input-box {
+   margin: 30px 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+}
+
+.input-box__form {
+   width: 100%;
+   position: relative;
+}
+
+.input-box__input {
+   color: whitesmoke;
+   font-size: 25px;
+   padding: 7px;
+   width: 100%;
+   background-color: #2B2730;
+}
+.input-box__input:focus {
+   outline: 2px solid gold;
+}
