@@ -1,0 +1,47 @@
+.coinsList {
+   color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.coinsList__column{
+   width: 100%;
+}
+
+/* .coinsList__pages-bar {
+   height: 50px;
+   display: flex;
+   justify-content: center;
+}
+
+.coinsList__pages-row {
+   width: 300px;
+   height: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.coinsList__page {
+   width: 30px;
+   height: 30px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   padding: 5px;
+   border-radius: 50%;
+   background-color: black;
+}
+.coinsList__page:hover{
+   background-color: gold;
+   color: black;
+} */
