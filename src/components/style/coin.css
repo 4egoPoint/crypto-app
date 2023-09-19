@@ -1,6 +1,39 @@
-.isGreen{
+.isGreen {
    color: rgb(31, 189, 31);
 }
-.isRed{
+
+.isRed {
    color: red;
+}
+
+.coin {
+   text-align: center;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid lightgray;
+   color: whitesmoke;
+}
+
+.coin__img {
+   margin-left: 20px;
+   height: 80%;
+}
+.coin__img-wrap{
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 120px;
+}
+
+.coin__name {
+   text-align: left;
+   width: 100px;
+}
+
+.coin__price {
+   width: 100px;
+
 }
