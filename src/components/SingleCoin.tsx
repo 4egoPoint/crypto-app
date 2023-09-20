@@ -11,6 +11,7 @@ type CoinData = {
 const SingleCoin = () => {
    const { id } = useParams()
    const [coin, setCoin] = useState<CoinData>()
+   
    const handleCoin =async () => {
       try {
          const response = await fetch(`https://api.coingecko.com/api/v3/coins/${id}`)
