@@ -1,0 +1,14 @@
+.not-found{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.not-found__title{
+   margin-top: 20px;
+   color: whitesmoke;
+   font-size: 30px;
+   font-weight: 500;
+   max-height: 200px;
+   max-width: 500px;
+   text-align: center;
+}

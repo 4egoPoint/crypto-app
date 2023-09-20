@@ -1,12 +1,18 @@
 .isGreen {
    color: rgb(31, 189, 31);
+   width: 25%;
 }
 
 .isRed {
    color: red;
+   width: 25%;
 }
 
 .coin {
+   background: transparent;
+   cursor: pointer;
+   width: 100%;
+   border: none;
    text-align: center;
    height: 100px;
    display: flex;
@@ -14,26 +20,31 @@
    align-items: center;
    border-bottom: 1px solid lightgray;
    color: whitesmoke;
+   padding: 0 30px;
+   @media (max-width: 500px) {
+      padding: 0;
+   }
 }
 
 .coin__img {
-   margin-left: 20px;
    height: 80%;
 }
-.coin__img-wrap{
+
+.coin__img-wrap {
+   width: 25%;
    height: 100%;
    display: flex;
    align-items: center;
-   justify-content: center;
-   width: 120px;
+   justify-content: flex-start;
 }
 
 .coin__name {
    text-align: left;
-   width: 100px;
+   width: 25%;
+   text-align: center;
 }
 
 .coin__price {
-   width: 100px;
-
+   width: 25%;
+   text-align: right;
 }

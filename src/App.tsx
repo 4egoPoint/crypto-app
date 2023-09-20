@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Layout from './components/Layout';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import SingleCoin from './components/SingleCoin';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <Routes>
                <Route path="/" element={<Layout />}>
                   <Route index element={<Home />} />
+                  <Route path="/coins/:id" element={<SingleCoin />} />
                </Route>
             </Routes>
          </BrowserRouter>
