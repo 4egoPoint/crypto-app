@@ -1,0 +1,54 @@
+.coin-page {
+   display: flex;
+   height: 100%;
+}
+
+.coin-page__sidebar {
+   width: 30%;
+   height: 85vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 25px;
+   border-right: 2px solid gray;
+   color: whitesmoke;
+}
+
+.sidebar__img {
+   height: 200px;
+   margin-bottom: 30px;
+}
+
+.sidebar__name {
+   font-weight: bold;
+   margin-bottom: 20px;
+   font-family: "Montserrat";
+}
+
+.sidebar__subtitle {
+   letter-spacing: 1px;
+   font-size: 20px;
+   margin: 10px 0;
+   width: 100%;
+   font-family: "Montserrat";
+   padding: 0 25px 15px;
+   text-align: justify;
+}
+
+.sidebar__params {
+   margin-top: 80px;
+   font-family: "Montserrat";
+   font-size: 35px;
+}
+.sidebar__rank{
+   margin-bottom: 15px;
+}
+.sidebar__cur-price{
+   margin-bottom: 15px;
+}
+
+.coin-page__content {
+   width: 70%;
+   height: 100%;
+}

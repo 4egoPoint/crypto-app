@@ -3,7 +3,6 @@
 import { useEffect } from "react"
 import "./style/coin.css"
 import { useAppSelector, useAppDispatch } from '../app/hooks'
-import { isCoin } from "../features/page/coinPageSlice"
 import { Link } from "react-router-dom"
 
 

@@ -11,6 +11,8 @@ type CoinType = {
    img?: string,
 }
 
+
+
 const Input = () => {
    const [coin, setCoin] = useState<CoinType>()
    const [isOpen, setIsOpen] = useState("n")
@@ -36,13 +38,28 @@ const Input = () => {
    useEffect(() => {
       if (coin?.id) {
          setIsOpen("popup")
+         disableScroll()
+         window.scroll(0, 0)
       }
-
    }, [coin, isOpen])
+
+
+   function disableScroll() {
+      window.onscroll = function () {
+         window.scroll(0, 0)
+      };
+   }
+
+   function enableScroll() {
+      window.onscroll = function () { };
+   }
+
+
 
    const deleteClass = () => {
       setIsOpen("n")
       setCoin(undefined)
+      enableScroll()
    }
    return (
       <div className="input">
