@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import "./style/singleCoin.css"
 import { useEffect, useState } from 'react';
 import { useAppSelector } from '../app/hooks'
+import CoinInfo from "./CoinInfo";
 
 
 type CoinData = {
@@ -59,7 +60,10 @@ const SingleCoin = () => {
                <h5 className="sidebar__cur-price">Current Price: {coin?.curPrice + curSymbol}</h5>
             </div>
          </div>
+
+
          <div className="coin-page__content">
+            <CoinInfo />
          </div>
       </div>
    )

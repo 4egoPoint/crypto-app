@@ -43,7 +43,7 @@ const CoinsList = () => {
          <div className='coinsList'>
             <div className="wrap__p">
                <CoinsListTitle />
-               <NotFound />
+               <div className="lds-dual-ring"></div>
             </div>
          </div >
       )

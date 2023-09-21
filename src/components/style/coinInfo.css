@@ -1,0 +1,75 @@
+.coin-info {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 25px;
+   padding: 40px;
+}
+
+.line {
+   height: 70vh;
+}
+
+.coin-info__buttons {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+
+}
+
+.coin-info__btn {
+   cursor: pointer;
+   background-color: transparent;
+   border: 1px solid gold;
+   padding: 10px 30px;
+   color: whitesmoke;
+   border-radius: 15px;
+   font-size: 15px;
+   font-weight: 600;
+   @media (max-width: 450px) {
+      padding: 10px ;
+      font-size: 10px;
+      font-weight: 400;
+
+   }
+}
+
+.coin-info__btn:hover {
+   background-color: gold;
+   color: black;
+}
+
+
+
+
+.lds-dual-ring {
+   display: inline-block;
+   width: 80px;
+   height: 80px;
+}
+
+.lds-dual-ring:after {
+   content: " ";
+   display: block;
+   width: 64px;
+   height: 64px;
+   margin: 8px;
+   border-radius: 50%;
+   border: 6px solid gold;
+   border-color: gold transparent gold transparent;
+   animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+   0% {
+      transform: rotate(0deg);
+   }
+
+   100% {
+      transform: rotate(360deg);
+   }
+}

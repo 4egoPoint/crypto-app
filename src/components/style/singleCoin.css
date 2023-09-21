@@ -1,11 +1,15 @@
 .coin-page {
    display: flex;
    height: 100%;
+
+   @media (max-width: 1500px) {
+      flex-direction: column;
+   }
 }
 
 .coin-page__sidebar {
    width: 30%;
-   height: 85vh;
+   height: 83vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -13,11 +17,20 @@
    margin-top: 25px;
    border-right: 2px solid gray;
    color: whitesmoke;
+
+   @media (max-width: 1500px) {
+      width: 100%;
+      height: 60vh;
+   }
 }
 
 .sidebar__img {
    height: 200px;
    margin-bottom: 30px;
+
+   @media (max-width: 420px) {
+      margin-bottom: 10px;
+   }
 }
 
 .sidebar__name {
@@ -30,7 +43,7 @@
    letter-spacing: 1px;
    font-size: 20px;
    margin: 10px 0;
-   width: 100%;
+   max-width: 700px;
    font-family: "Montserrat";
    padding: 0 25px 15px;
    text-align: justify;
@@ -40,15 +53,25 @@
    margin-top: 80px;
    font-family: "Montserrat";
    font-size: 35px;
+
+   @media (max-width: 1500px) {
+      margin-top: 20px;
+   }
 }
-.sidebar__rank{
+
+.sidebar__rank {
    margin-bottom: 15px;
 }
-.sidebar__cur-price{
+
+.sidebar__cur-price {
    margin-bottom: 15px;
 }
 
 .coin-page__content {
    width: 70%;
    height: 100%;
+
+   @media (max-width: 1500px) {
+      width: 100%;
+   }
 }
